@@ -1,0 +1,131 @@
+\documentclass[12pt,a4paper,twocolumn]{article}
+\usepackage[margin=2cm,columnsep=0.8cm]{geometry} 
+\usepackage{setspace}                    
+\usepackage{authblk}                      
+\usepackage{graphicx}                    
+\usepackage{subcaption}                 
+\usepackage{float}                       
+\usepackage{booktabs}                   
+\usepackage{amsmath,amsfonts,amssymb}   
+\usepackage{siunitx}                  
+\usepackage[round,sort&compress]{natbib}
+\usepackage{hyperref}                    
+\usepackage{caption}                    
+\usepackage{fancyhdr}                   
+\usepackage{xcolor}                    
+\usepackage{libertine}
+\captionsetup{font=small,labelfont=bf}
+\pagestyle{fancy}
+
+\fancyhf{}
+\fancyhead[L]{\textit{Running Title}}  % Edit the running title (short title)
+\fancyhead[R]{\thepage}
+
+% For incoming students, feel free to use your home university here
+\title{Full Title of the Article} % Pick your title (you may go creative here)
+\author[1]{First Author} % Each author should be listed
+\author[2]{Second Author}
+\affil[1]{Graz University of Technology, Graz, Austria}
+\affil[2]{University of Graz, Graz, Austria}
+\date{\today}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+    Your abstract goes here. It should be a single paragraph of 150--250 words summarizing the report’s context, aims, methods, results, and conclusions.
+    The entire paper should not exceed 6 pages (excluding limitations, ethical considerations, references, appendix).
+    Please do not forget to fill out the contributions for each team member in the table.
+\end{abstract}
+
+\section{Introduction}
+\label{sec:intro}
+State the context and objectives of the work, optionally provide a short background.
+In scientific writing it is common to use "we", even for single author works.
+Often contractions are avoided in scientific writing.
+
+\section{Related Work}
+Please cite relevant literature.
+One important paper for illustration proposes the attention mechanism of the Transformer architecture~\citep{vaswani2017attention}.
+Or use \citet{vaswani2017attention} to use the authors as part of the sentence.
+
+\section{Materials and Methods}
+\label{sec:methods}
+Describe the materials (datasets), and analytical methods used.
+Consider using pseudocode or mathematical notation to aid communication of your work.
+The reader should be able to reproduce the results.
+
+\section{Results}
+\label{sec:results}
+Present the evaluation results you gained (objective results). 
+Consider using tables and charts for the report.
+Of course, baselines are helpful for the reader to assess the performance of the method.
+
+\section{Discussion}
+\label{sec:discussion}
+Interpret and discuss your results (could be a more subjective results).
+Describe your findings here, what can we learn from the work.
+
+\section{Conclusion}
+\label{sec:conclusion}
+Summarize the key findings and implications (design your report that one get the main insights from reading abstract/introduction/conclusions and glancing at the illustrations). 
+Suggest future research (very briefly).
+
+
+% Everything up here counts for the page limit 
+\newpage
+
+\section*{Limitations}
+List potential limitations of your work, e.g., only English language.
+
+\section*{Ethical Considerations}
+Please consider how your work could potentially be used and may cause some harm.
+Also, sustainability aspects can be reported here, e.g., how much CO2e does you approach require.
+
+\section*{Acknowledgments}
+Briefly acknowledge people, funding sources, or institutions.
+
+\section*{Contributions}
+% Add here a list of the individual contributions per team member
+\begin{table}[h!]
+    \centering
+    \caption{List of contributions per team member.}
+    \label{tab:contributions}
+    \begin{tabular}{lp{4cm}}
+        \toprule
+        \textbf{Team Member} & \textbf{Contribution} \\
+        \midrule
+        Name            & Did all of the work.             \\
+        Another Name    & Did not even care to show up.    \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\bibliographystyle{plainnat}
+\bibliography{bibliography}
+
+\appendix
+
+\section{Appendix - Overview}
+
+The appendix can be used to add details, especially implementation aspects, or added evaluations.
+There is no page limit on the appendix.
+You may also report approaches that you tried, but did not work out.
+Additional examples can be reported, or prompts being used for generative AI.
+
+\section{Appendix - Usage of AI}
+More details on the usage of AI: \href{https://www.tugraz.at/fileadmin/Studierende\_und\_Bedienstete/Information/Unsere\_TU\_Graz/Lehre\_an\_der\_TU\_Graz/Zitiervorschlaege_KI.pdf}{Zitiervorschlaege AI}
+
+\section{Appendix - Figure and Table Examples}
+Examples how to use figures, see Figure~\ref{fig:example} and tables, see Table~\ref{tab:contributions}.
+In double, just let Latex layout the illustrations for you, or position them at the top or bottom of a page.
+Is is common to capitalise nouns that are followed by numbers, as they are considered names (proper noun), e.g., Page 4.
+
+\begin{figure}
+    \centering
+        \includegraphics[width=0.7\linewidth]{example-image}
+    \caption{Example figure caption. Please consider to explain to the reader, what is depicted}
+    \label{fig:example}
+\end{figure}
+
+
+\end{document}

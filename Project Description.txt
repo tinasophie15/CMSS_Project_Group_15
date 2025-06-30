@@ -1,0 +1,120 @@
+Computational Modelling of Social Systems: Projects Guide
+
+50% of the course assessment is based on a final course project. Projects are done in groups of up to 4 students and must mix students with different backgrounds (at least two backgrounds per group). The purpose of the project is to demonstrate your learning in modelling social systems. Projects must start from a research question and have either an empirical or theoretical focus, while critically reflecting on methods, hypotheses, conclusions, and limitations.
+
+────────────────────────────────────────────
+Project Options
+────────────────────────────────────────────
+
+Option 1: New Project Proposal
+- Combine different models seen during the course (e.g., group formation and spreading models).
+- Modify interaction rules (attributes, homophily, group size, etc.).
+- Formulate a research question based on 4–6 papers.
+- Identify gaps in the literature.
+- Implement a model with simulations or empirical data.
+
+Option 2: Extension of Previous Assignments
+- Start from a past assignment and improve it based on literature.
+- Perform a review (4–6 papers) to find literature gaps.
+- Apply model to new contexts or extend theory.
+- Must follow scientific method and be clearly novel.
+
+────────────────────────────────────────────
+Project Requirements (For Both Options)
+────────────────────────────────────────────
+
+- Submit a final report (max. 10 pages, PDF) by **July 9, 2025**.
+- Submit a Jupyter Notebook with the code used.
+- Report structure must include:
+  • Introduction
+  • Methodology
+  • Results
+  • Discussion
+  • Limitations
+  • Conclusion
+
+- Plots must be labeled (axis names, visible scales).
+- Writing must be clear and scientifically structured.
+
+────────────────────────────────────────────
+Important Dates
+────────────────────────────────────────────
+
+28.05.2025 – Project guidance session with Ana  
+02.06.2025 – Project group registration on TC  
+09.07.2025 – Final report submission deadline
+
+────────────────────────────────────────────
+Submission Details
+────────────────────────────────────────────
+
+- Upload your report via TeachCenter.
+- 10-page PDF (11pt minimum font). References do not count toward the page limit.
+- Include a GitHub repo link for your code, datasets (if allowed), and supplementary materials.
+
+────────────────────────────────────────────
+Report Structure Overview
+────────────────────────────────────────────
+
+Introduction:  
+Literature review, research question, and project motivation.
+
+Methodology:  
+Model description, parameters, data collection (if applicable).
+
+Results:  
+Statistical analysis, simulations, visualizations.
+
+Discussion:  
+Relate findings to previous literature.
+
+Limitations:  
+Project constraints and future work suggestions.
+
+Conclusion:  
+Summarize findings and answer research question.
+
+────────────────────────────────────────────
+Project Grading
+────────────────────────────────────────────
+
+- 100% of the grade is based on the final report.
+- Extra points for:
+  • Open science (e.g., GitHub with code/data).
+  • Use of original data or models beyond course content.
+- "Negative" or unexpected results are acceptable if analysis is well documented.
+
+────────────────────────────────────────────
+FAQ (Frequently Asked Questions)
+────────────────────────────────────────────
+
+• Is group work mandatory?
+  → Yes. Groups must collaborate. Exceptions apply only for doctoral students—ask the instructors.
+
+• Do we need a research question?
+  → Yes. It must be relevant to human behavior and computational modelling.
+
+• Can we change methods/models later?
+  → Yes, if well documented. Do not change the research question arbitrarily.
+
+• What if results are "bad" or inconclusive?
+  → That’s fine. Just explain and reflect on them in the report.
+
+• Do we need to use real data?
+  → Not necessarily. Simulation-based projects are fine if they have empirical/quantitative aspects.
+
+• Can we use external methods not taught in class?
+  → Yes, but understand them thoroughly and explain their use clearly.
+
+• Can we use private data?
+  → Yes, but you won’t qualify for open science extra points.
+
+• Do we have to use online/social media data?
+  → No, but your data must relate to Computational Modelling of Social Systems.
+
+────────────────────────────────────────────
+Resources
+────────────────────────────────────────────
+
+Guideline on writing a research paper:  
+https://www.adelaide.edu.au/writingcentre/ua/media/28/learningguide-writingaresearchreport.pdf
