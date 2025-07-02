@@ -1,4 +1,5 @@
-# CMSS_Project_Group_15# Inequality and Polarization: An Agent-Based Modeling Approach Using Eurostat Data
+# CMSS_Project_Group_15
+# Inequality and Polarization: An Agent-Based Modeling Approach Using Eurostat Data
 
 ## Overview
 
